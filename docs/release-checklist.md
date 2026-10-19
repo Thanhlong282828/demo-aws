@@ -9,10 +9,10 @@
 | Production | Guest/User/Admin/API smoke | PASS35 checks HTTPS; register/foreign owner bổ sung sau |
 | Renewal | systemd timer + dry-run + Nginx reload | PASS |
 | Tests | MySQL suite | PASS82 tests/338 assertions |
-| Docs | D29–D35, API, Postman, README | CREATED; link/schema checks cần xác minh |
-| Fresh setup | README trong folder sạch | PENDING execution |
-| Source audit | Tracked secrets/runtime | PENDING final audit |
-| GitHub | Repo, push, v1.0.0 release | PENDING publish |
+| Docs | D29–D35, API, Postman, README | PASS: Markdown links, JSON parse, 17 requests Postman |
+| Fresh setup | README trong folder sạch | PASS: clone sạch, install, migrate/seed, 82 tests PASS |
+| Source audit | Tracked secrets/runtime | PASS: .env/khóa/log ignored; tracked secret-pattern audit PASS |
+| GitHub | Repo, push, v1.0.0 release | Repo đã tạo; push/tag/release đang thực hiện |
 | Learner | Knowledge checks | NOT ASSESSED |
 | Learner | Live Change45 phút không AI | USER TODO |
 | Learner | Project Defense | USER TODO |

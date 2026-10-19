@@ -6,4 +6,4 @@ Regression thật: bỏ GET index route Products → test_guest_product_list_is_
 
 Production: 35 HTTP checks PASS ban đầu trên HTTP, sau đó35 checks PASS qua HTTPS với TLS verification. Bao gồm product/category CRUD, login/token revoke, 401/403/404/422, session/CSRF, add/update cart, checkout tạo đơn/items/trừ stock, admin status/terminal rejection; private paths blocked. Tự gia hạn certificate dry-run và Nginx deploy hook PASS.
 
-Fresh clone test sẽ được bổ sung kết quả sau khi thực thi. Các kết quả trên là tool output đã chạy; không phải người học đã làm bài exam không AI.
+Fresh local clone ở /tmp/minishop-week5-fresh-verify: composer install từ lock, cấu hình database minishop_week5_fresh, generate key mới, migrate/seed, 82 tests/338 assertions và route:cache PASS. Các kết quả trên là tool output đã chạy; không phải người học đã làm bài exam không AI.

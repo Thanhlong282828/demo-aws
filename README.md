@@ -16,7 +16,7 @@ Mini Shop là portfolio Junior PHP/Laravel: đăng ký → đăng nhập → gi�
 
 ## Tech stack & architecture
 
-PHP 8.3+ (production 8.5), Laravel 13, `nwidart/laravel-modules` 13, Sanctum 4, MySQL 8, Blade, PHPUnit 12, Nginx/PHP-FPM, AWS EC2 Ubuntu 26.04.
+PHP 8.4.1+ theo composer.lock (production 8.5), Laravel 13, `nwidart/laravel-modules` 13, Sanctum 4, MySQL 8, Blade, PHPUnit 12, Nginx/PHP-FPM, AWS EC2 Ubuntu 26.04.
 
 ```text
 Modules/Product: routes → Controllers → Form Requests → Product Model → Blade web views
@@ -33,7 +33,7 @@ API controllers trả JSON; web controllers trả Blade/redirect. Business check
 
 ## Installation
 
-Yêu cầu PHP 8.3+ với pdo_mysql, mbstring, xml, curl, zip, bcmath, intl; Composer 2; MySQL 8. Blade hiện dùng CSS inline nên không cần npm để chạy website này.
+Yêu cầu PHP 8.4.1+ với pdo_mysql, mbstring, xml, curl, zip, bcmath, intl; Composer 2; MySQL 8. Blade hiện dùng CSS inline nên không cần npm để chạy website này.
 
 ```bash
 git clone https://github.com/Thanhlong282828/minishop-week5.git
