@@ -10,12 +10,14 @@
 | Renewal | systemd timer + dry-run + Nginx reload | PASS |
 | Tests | MySQL suite | PASS82 tests/338 assertions |
 | Docs | D29–D35, API, Postman, README | PASS: Markdown links, JSON parse, 17 requests Postman |
-| Fresh setup | README trong folder sạch | PASS: clone sạch, install, migrate/seed, 82 tests PASS |
+| Fresh setup | README trong folder sạch | PASS: clone sạch, install, migrate/seed, 82 tests PASS; web/API localhost200 |
 | Source audit | Tracked secrets/runtime | PASS: .env/khóa/log ignored; tracked secret-pattern audit PASS |
-| GitHub | Repo, push, v1.0.0 release | Repo đã tạo; push/tag/release đang thực hiện |
+| GitHub | Repo, push, v1.0.0 release | PASS: source public; v1.0.0 technical release — xem link phát hành ở dưới |
 | Learner | Knowledge checks | NOT ASSESSED |
 | Learner | Live Change45 phút không AI | USER TODO |
 | Learner | Project Defense | USER TODO |
 | Career | CV cá nhân/16 applications/funnel | USER TODO; draft project bullets available |
 
 v1.0.0 là release kỹ thuật project, không phải chứng nhận người học đã pass mọi mục Week5. Không backdate commits hoặc giả mạo lịch sử học theo ngày.
+
+[GitHub release v1.0.0](https://github.com/Thanhlong282828/minishop-week5/releases/tag/v1.0.0) là bằng chứng publish; link được tạo sau commit release checklist.
