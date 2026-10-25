@@ -1,6 +1,6 @@
 # Mini Shop — Laravel Modules + MVC / MySQL
 
-[Live Demo](https://54.252.208.88/products) · [GitHub](https://github.com/Thanhlong282828/minishop-week5) · [API documentation](docs/api.md) · [Học D29–D35](docs/START-HERE.md)
+[Live Demo](https://54.252.208.88/products) · [GitHub](https://github.com/Thanhlong282828/demo-aws) · [API documentation](docs/api.md) · [Học D29–D35](docs/START-HERE.md)
 
 Mini Shop là portfolio Junior PHP/Laravel: đăng ký → đăng nhập → giỏ hàng → checkout → xem đơn; admin quản lý sản phẩm, danh mục và trạng thái đơn. Week 5 bổ sung REST API, kiểm thử và triển khai HTTPS. Project có hỗ trợ AI; bài thi không AI chưa được thực hiện thay người học.
 
@@ -36,8 +36,8 @@ API controllers trả JSON; web controllers trả Blade/redirect. Business check
 Yêu cầu PHP 8.4.1+ với pdo_mysql, mbstring, xml, curl, zip, bcmath, intl; Composer 2; MySQL 8. Blade hiện dùng CSS inline nên không cần npm để chạy website này.
 
 ```bash
-git clone https://github.com/Thanhlong282828/minishop-week5.git
-cd minishop-week5
+git clone https://github.com/Thanhlong282828/demo-aws.git
+cd demo-aws
 mkdir -p storage/framework/cache/data storage/framework/sessions storage/framework/views storage/logs bootstrap/cache
 composer install --no-interaction
 cp .env.example .env
